@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="22605a88-54dc-4e6b-969b-bcb701334198" name="Default Changelist" comment="" />
+    <list default="true" id="22605a88-54dc-4e6b-969b-bcb701334198" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/attendancemanagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/attendancemanagementSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac6301b1-b135-41e4-a387-5f1561a3bbc0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f85127e0-174c-4c64-8165-e1b28857b0ea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f85127e0-174c-4c64-8165-e1b28857b0ea/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/templates/leave.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/leave.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +32,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cfFy1YUPoUcMYkXQPY41SEUrtz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +60,31 @@
       <recent name="C:\Users\bn\attendancemanagementSystem\templates" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="attendancemanagementSystem" type="Python.DjangoServer" factoryName="Django server">
+      <module name="attendancemanagementSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -49,22 +95,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590911991510</updated>
-      <workItem from="1590912005233" duration="63041000" />
+      <workItem from="1590912005233" duration="64982000" />
+      <workItem from="1591245511797" duration="2256000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="724" y="131" width="908" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591094192700">
       <screen x="0" y="0" width="1745" height="941" />
     </state>
     <state x="724" y="131" width="908" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1745.941@0.0.1745.941" timestamp="1591094192700" />
-    <state x="652" y="225" key="FileChooserDialogImpl" timestamp="1591165743651">
+    <state x="652" y="225" key="FileChooserDialogImpl" timestamp="1591259779383">
       <screen x="0" y="0" width="1745" height="941" />
     </state>
-    <state x="652" y="225" key="FileChooserDialogImpl/0.0.1745.941@0.0.1745.941" timestamp="1591165743651" />
+    <state x="652" y="225" key="FileChooserDialogImpl/0.0.1745.941@0.0.1745.941" timestamp="1591259779383" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1591040832692">
       <screen x="0" y="0" width="1745" height="941" />
     </state>
@@ -86,6 +145,10 @@
     </state>
     <state x="1049" y="243" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1675.865@0.0.1675.865" timestamp="1591242406281" />
     <state x="1093" y="264" width="577" height="524" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1745.941@0.0.1745.941" timestamp="1591240029137" />
+    <state x="574" y="68" width="596" height="804" key="find.popup" timestamp="1591259821282">
+      <screen x="0" y="0" width="1745" height="941" />
+    </state>
+    <state x="574" y="68" width="596" height="804" key="find.popup/0.0.1745.941@0.0.1745.941" timestamp="1591259821282" />
     <state x="594" y="382" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1591099271056">
       <screen x="0" y="0" width="1745" height="941" />
     </state>

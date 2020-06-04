@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>overtime</title>
+</head>
+<body>
+
+<h3>加班信息表</h3>
+<br/>
+<form action="/checkattendance" method="GET">
+    {% csrf_token %}
+     <input name="employeeid">
+    <input type="submit" value="按员工编号查找">
+    <br/>
+    <br/>
+</form>
+
+<a href="/backend/openUserAdd" >添加</a>
+ <table border="1">
+        <thead>
+        <tr>
+            <th>年份</th>
+            <th>月份</th>
+            <th>员工编号</th>
+            <th>所在部门编号</th>
+            <th>加班类型</th>
+            <th>加班小时</th>
+            <th>操作</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        {% for row in ls %}
+            <tr>
+                <td>{{ row.year }}</td>
+                <td>{{ row.month}}</td>
+                <td>{{ row.employeeid }}</td>
+                <td>{{ row.departmentid }}</td>
+                <td>{{ row.overtimekind }}</td>
+                <td>{{ row.overtimehour }}</td>
+                <td>
+                    <a href="/backend/deleteUser?id={{ row.id }}">删除</a>
+                    |
+                    <a href="/backend/openEdit?id={{ row.id }}">编辑</a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

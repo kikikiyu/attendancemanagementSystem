@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>checkattendance</title>
+</head>
+<body>
+<table border="1">
+        <thead>
+        <tr>
+            <th>出勤日期</th>
+            <th>员工编号</th>
+            <th>所在部门编号</th>
+            <th>出勤时间</th>
+            <th>退勤时间</th>
+            <th>全天工作时间</th>
+            <th>确认标志</th>
+            <th>确认者</th>
+            <th>出勤状况</th>
+            <th>操作</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        {% for row in ls %}
+            <tr>
+                <td>{{ row.attendancedate }}</td>
+                <td>{{ row.employeeid }}</td>
+                <td>{{ row.departmentid }}</td>
+                <td>{{ row.attendancetime }}</td>
+                <td>{{ row.retiredtime }}</td>
+                <td>{{ row.worktime }}</td>
+                <td>{{ row.confirmsymbol }}</td>
+                <td>{{ row.confirmname }}</td>
+                <td>{{ row.status }}</td>
+
+                <td>
+                    <a href="/backend/deleteUser?id={{ row.id }}">删除</a>
+                    |
+                    <a href="/backend/openEdit?id={{ row.id }}">编辑</a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

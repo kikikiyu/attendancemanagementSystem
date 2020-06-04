@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>addattendance</title>
+</head>
+<body>
+<form action="/saveattendance" method="GET">
+    {% csrf_token %}
+    出勤日期： <br/>  <input name="attendancedate">
+    <br>
+    员工编号： <br/>  <input name="employeeid">
+    <br>
+    所在部门编号：<br/> <input name="departmentid">
+    <br>
+    出勤时间： <br/>  <input name="attendancetime">
+    <br>
+    退勤时间： <br/>  <input name="retiredtime">
+    <br>
+    全天工作时间：<br/> <input name="worktime">
+    <br>
+    确认标志： <br/>  <input name="confirmsymbol">
+    <br>
+    确认者：  <br/>   <input name="confirmname">
+    <br>
+    出勤状况： <br/>  <input name="status">
+    <br>
+    <input type="submit" value="添加">
+</form>
+</body>
+</html>
